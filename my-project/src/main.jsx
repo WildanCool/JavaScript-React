@@ -11,9 +11,12 @@ import {
   LoginStatus,
   SimpleCalculator,
 } from "./MT8 - UseState/tugas8.jsx";
+import SimpleName from "./MT9 - UseState/array.jsx";
+import UpdateStateWithMap from "./MT9 - UseState/map.jsx";
+import Card from "./MT9 - UseState/tugas1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <SimpleCalculator />
+    < Card/>
   </StrictMode>
 );
