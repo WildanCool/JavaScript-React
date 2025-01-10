@@ -13,10 +13,15 @@ import {
 } from "./MT8 - UseState/tugas8.jsx";
 import SimpleName from "./MT9 - UseState/array.jsx";
 import UpdateStateWithMap from "./MT9 - UseState/map.jsx";
-import Card from "./MT9 - UseState/tugas1.jsx";
+import Card from "./MT9 - UseState/soalgambar.jsx";
+import Counter2 from "./MT10 - UseEffect/soal1.jsx";
+import CounterLogger from "./MT10 - UseEffect/soal2.jsx";
+import CounterNoEffect from "./MT10 - UseEffect/coba1.jsx";
+import CounterWithEffect from "./MT10 - UseEffect/coba2.jsx";
+import TextLogger from "./MT10 - UseEffect/soal3.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    < Card/>
+    <TextLogger />
   </StrictMode>
 );

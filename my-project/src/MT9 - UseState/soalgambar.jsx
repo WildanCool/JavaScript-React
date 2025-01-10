@@ -1,3 +1,5 @@
+// Sudah inqlude soal gambar 1, 2, 3
+
 import { useState } from "react";
 
 const Card = () => {
