@@ -22,9 +22,11 @@ import TextLogger from "./MT10 - UseEffect/soal3.jsx";
 import StatusBar, { SaveButton } from "./MT11 - CustomHooks/coba2.jsx";
 import GantiTheme from "./MT11 - CustomHooks/soal1.jsx";
 import StatusTask from "./MT11 - CustomHooks/soal2.jsx";
+import Router from "./MT12 - ReactRouter/soal1/soal1.jsx";
+import Explore from "./MT12 - ReactRouter/explore/coba.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <StatusTask />
+    <Router />
   </StrictMode>
 );
