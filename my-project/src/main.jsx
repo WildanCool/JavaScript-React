@@ -24,9 +24,13 @@ import GantiTheme from "./MT11 - CustomHooks/soal1.jsx";
 import StatusTask from "./MT11 - CustomHooks/soal2.jsx";
 import Router from "./MT12 - ReactRouter/soal1/soal1.jsx";
 import Explore from "./MT12 - ReactRouter/explore/coba.jsx";
+import CobaAxios from "./MT13 - Axios/cobaAxios.jsx";
+import CobaAxios2 from "./MT13 - Axios/soal1.jsx";
+import AxiosMap from "./MT13 - Axios/soal1map.jsx";
+import AxiosCard from "./MT13 - Axios/soal2.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router />
+    <AxiosCard />
   </StrictMode>
 );
