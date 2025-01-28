@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
-
+  
 function DetailUser() {
   const { id } = useParams();
   const [user, setUser] = useState(null);
