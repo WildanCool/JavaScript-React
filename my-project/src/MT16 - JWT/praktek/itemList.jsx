@@ -11,20 +11,13 @@ function ProductList() {
 
   useEffect(() => {
     const token = localStorage.getItem("authToken");
-    if (!token) {
+    if (token) {
+      const decodedToken = jwtDecode(token);
+      setUserProfile(decodedToken.iat);
+    } else {
       navigate("/");
     }
-    axios
-      .get("https://api.escuelajs.co/api/v1/auth/profile", {
-        headers: { Authorization: `Bearer ${token}` },
-      })
-      .then((response) => {
-        setUserProfile(response.data.name);
-      })
-      .catch(() => {
-        navigate("/");
-      });
-  }, [navigate]);
+  }, []);
 
   useEffect(() => {
     axios

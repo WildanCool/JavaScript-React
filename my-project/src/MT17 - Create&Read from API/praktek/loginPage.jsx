@@ -1,12 +1,10 @@
 import axios from "axios";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { jwtDecode } from "jwt-decode";
+import { useNavigate, Link } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [userProfile, setUserProfile] = useState(null);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
@@ -73,6 +71,9 @@ const LoginPage = () => {
           >
             Login
           </button>
+          <Link to="/createAccount">
+            <button className="text-sm text-blue-500 mt-1">Create Account?</button>
+          </Link>
         </form>
 
         {error && (
