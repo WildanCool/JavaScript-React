@@ -37,9 +37,12 @@ import Login from "./MT16 - JWT/coba.jsx";
 import AddFood from "./MT17 - Create&Read from API/praktek2/tambahPage.jsx";
 import FoodList from "./MT17 - Create&Read from API/praktek2/readPage.jsx";
 import Praktek2Data from "./MT18 - Update&Delete/praktek2/app.jsx";
+import CounterZustand from "./MT19 - Zustand/coba.jsx";
+import TodoApp from "./MT19 - Zustand/soal2.jsx";
+import CustomerCount from "./MT19 - Zustand/soal1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Praktek2Data />
+    <TodoApp />
   </StrictMode>
 );
