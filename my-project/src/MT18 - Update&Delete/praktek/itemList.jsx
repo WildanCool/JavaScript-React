@@ -8,7 +8,7 @@ function ProductList() {
 
   const navigate = useNavigate();
 
-  useEffect(() => {
+  useEffect(() => { 
     const token = localStorage.getItem("authToken");
     if (!token) {
       navigate("/");
